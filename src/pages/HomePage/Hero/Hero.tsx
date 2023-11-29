@@ -8,6 +8,8 @@ import TechSupportIcon from "../../../components/TechSupportIcon/TechSupportIcon
 import windows from "../../../images/home/windows.svg";
 import mac from "../../../images/home/mac_os.svg";
 
+import { exe } from "../../../exe/exe";
+
 import "./Hero.scss";
 
 const isMobile = window.innerWidth <= 768;
@@ -121,7 +123,7 @@ const Hero = () => {
                   </h2>
 
                   <a
-                    href="../../../games/Windows.exe"
+                    href={exe("Windows")}
                     className="download_os_choose__button"
                     download
                   >
@@ -140,7 +142,7 @@ const Hero = () => {
                   </h2>
 
                   <a
-                    href="../../../games/Mac.exe"
+                    href={exe("MacOS")}
                     className="download_os_choose__button"
                     download
                   >

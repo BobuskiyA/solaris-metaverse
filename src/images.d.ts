@@ -7,3 +7,4 @@ declare module "*.svg";
 declare module "*.pdf";
 declare module "*.doc";
 declare module "*.docx";
+declare module "*.exe";
