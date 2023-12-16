@@ -16,8 +16,9 @@ const downloadClick = {
   block: {
     open: {
       width: isMobile ? "100%" : "170%",
-      height: "420%",
+      height: "350%",
       left: '50%',
+      top: '0',
       transition: {
         duration: 0.8,
         type: "tween",
