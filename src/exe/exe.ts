@@ -1,5 +1,5 @@
-import MacOS from "./Mac.exe";
-import Windows from "./Game.exe";
+import MacOS from "./SMVInstaller.pkg";
+import Windows from "./SMVInstaller.exe";
 
 export const exe = (doc: string) => {
   switch (doc) {

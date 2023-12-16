@@ -8,3 +8,4 @@ declare module "*.pdf";
 declare module "*.doc";
 declare module "*.docx";
 declare module "*.exe";
+declare module "*.pkg";
